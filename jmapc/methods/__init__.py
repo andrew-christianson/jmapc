@@ -7,6 +7,7 @@ from .base import (
     Response,
     ResponseOrError,
 )
+from .blob import BlobGet, BlobGetResponse
 from .core import CoreEcho, CoreEchoResponse
 from .custom import CustomMethod, CustomResponse
 from .email import (
@@ -64,6 +65,8 @@ from .thread import (
 )
 
 __all__ = [
+    "BlobGet",
+    "BlobGetResponse",
     "CoreEcho",
     "CoreEchoResponse",
     "CustomMethod",
